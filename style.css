@@ -1,0 +1,124 @@
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#blog {
+    border-top: 1px dotted, #ccc;
+}
+
+.blog-post{
+    border-bottom: 1px dotted #ccc;
+}
+
+.img-container {
+    float: right;
+    margin: 0 0 15px 20px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+}
+
+.img-container img {
+    width: auto;
+    height: 340px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic; 
+}
+
+.blog-post:nth-of-type(2){
+    display: flex;
+}
+
+
+.fred-again{
+    flex: 1;
+}
+
+.post{
+    flex: 2;
+    padding: 10px;
+}
+.fred-again img{
+    height: 525px;
+    width: 400px;
+    padding: 20px;
+}
+
+p img{
+    height: 400px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#signup{
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+
+td, th {
+    border: 1px solid;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+header {
+    position: -webkit-sticky;
+    top: 0;
+    padding: 20px;
+    text-align: center;
+    background: black;
+}
+
+header p{
+    color: white;
+}
+
+
+nav li {
+    display: inline;
+    padding: 70px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e3e3e3;
+}
